@@ -33,6 +33,7 @@ md127 - имя массива.
   <img width="729" height="561" alt="fdisk_3" src="https://github.com/user-attachments/assets/2676a62f-c764-4450-81ee-f6a8c19a1adb" />
 
      mdadm -D /dev/md127
+     
 -D - сокращение от --detail
 
 
@@ -46,7 +47,11 @@ md127 - имя массива.
     mkfs.ext4 /dev/md127
 
    #Монтирование массива к диску /mnt/01:
+
+
+   
 <img width="475" height="93" alt="fdisk_5" src="https://github.com/user-attachments/assets/db7f8370-b2a8-4ff6-9676-8411cd1ecc95" />
+
 
    **1.Команда для монтирования:**
          
